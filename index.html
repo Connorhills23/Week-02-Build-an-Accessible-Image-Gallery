@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <header class="site-header">
+    <h1 class="site-title">My Image Gallery</h1>
+    <p class="site-subtitle">Explore the BeamNG Banger World</p>
+  </header>
+  <body>
+    <main class="fullscreen-slider">
+      <div class="slider">
+        <button class="nav prev" aria-label="Previous image">◀</button>
+
+        <figure class="main-figure">
+          <img
+            id="main-image"
+            src="images/image1.jpg"
+            alt="Banger"
+            class="main-image"
+          />
+        </figure>
+
+        <button class="nav next" aria-label="Next image">▶</button>
+      </div>
+
+      <div class="thumbnails">
+        <button class="thumb active" data-index="0">
+          <img src="images/image1-thumb.jpg" />
+        </button>
+        <button class="thumb" data-index="1">
+          <img src="images/image2-thumb.jpg" />
+        </button>
+        <button class="thumb" data-index="2">
+          <img src="images/image3-thumb.jpg" />
+        </button>
+        <button class="thumb" data-index="3">
+          <img src="images/image4-thumb.jpg" />
+        </button>
+        <button class="thumb" data-index="4">
+          <img src="images/image5-thumb.jpg" />
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
